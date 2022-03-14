@@ -1,0 +1,36 @@
+FONT STYLING : 
+    - font-family: menetapkan jenis font yang akan diterapkan pd target
+    - font-size: netapin ukuran teks
+    - font-weight: nentuin ketebalan pada teks
+    - font-style: nentuin styling yang diterapik ke teks
+        Italic dan oblique keduanya menampilkan teks yang miring.
+        Perbedaanya adalah italic menerapkan tipe miring (italic font version)
+        dari suatu font sedangkan oblique adalah font normal yang hanya dibuat miring.
+    - font-variant: nentuin teks buat make gaya small caps(huruf kapital kecil)
+        membuat teks menjadi kapital tetapi dituliskan secara kecil dan merapat
+    - font: Short hand dri properti
+
+
+TEXT STYLING : 
+    -line height: dipake untuk ngatur jarak minimal dri garis dasar ke garis dasar
+        dalam menampilkannya teks pada halaman
+    -text indent: bikin teks menjorok kedalam, kayak kalo kita bikin paragraf, kalimat
+        pertama biasanya menjorok ke dalam.
+    -text alignment        
+    -text decoration
+    -text transform: dipake untuk membantu di kala ingin ngubah kapital
+        tanpa harus menuliskan kembali teks
+
+WORD and LETTER SPACING : 
+    - mengatur jarak/spasi pada teks
+
+TEXT SHADOW :
+    - ngasih bayangan ke teks
+    - membutuhkan empat nilai dalam satu properti
+      untuk menentukan bayangannya = 
+        ~ Nilai pertama : menunjukkan seberapa jauh ke kiri atau kanan (horizontal) bayangan harus ditampakkan.
+        ~ Nilai kedua : menunjukkan jarak ke atas atau ke bawah (vertical) bayangan harus ditampakkan. 
+        ~ Nilai Ketiga (opsional) : menentukan tingkat keburaman yang harus diterapkan pada bayangan.
+        ~ Nilai Keempat :  menentukan warna yang digunakan pada bayangan.
+
+

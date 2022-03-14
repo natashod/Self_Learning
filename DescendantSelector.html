@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descendant Selector</title>
+    <style>
+        /* Rule akan diterapkan pada elemen paragraf yang merupakan turunan dari elemen div */
+        div p {
+            background-color:cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>paragraf pertama. di dlm div</p>
+        <p>paragraf kedua. di dalam  div</p>
+        <section><p>paragraf ketiga. didalam div walaupunbukan sebagai anak elemen scr langsung, tapi masih tmsk turunannya</p></section>
+        <p>paragraf keempat. di dalam div</p>
+    </div>
+    <p>paragraf kelima. diluar div</p>
+    <p>paragraf keenam. diluar div</p>
+</body>
+</html>

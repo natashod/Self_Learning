@@ -1,0 +1,59 @@
+Content : Merupakan sebuah inti dari kotak elemen yang merupakan konten dari elemen itu sendiri
+Padding : Area yang menjadi jarak antara border elemen dengan konten yang ditampilkan.
+    Ketika kita menerapkan background-color maka warna tersebut diterapkan pada area padding.
+    Penerapan ukuran padding pada elemen merupakan opsional.
+Border : Merupakan garis yang mencakup konten beserta padding. Penerapan border pada elemen merupakan
+    opsional.
+Margin : Berbeda dengan padding, margin merupakan area jarak diluar dari border.
+    Pada ilustrasi diatas, margin ditunjukkan dengan warna merah muda namun pada aslinya
+margin selalu transparan dan penerapan margin pada elemen merupakan opsional.
+Edge of element : merupakan batas dari suatu elemen. Di dalamnya terdapat margin, border, padding dan konten.
+    batas elemen ditunjukkan dengan garis putus tetapi pada aslinya batas elemen selalu tidak terlihat.
+
+BOX DIMENSIONS = cara nentuin box dimensions make pixel, presentase, /ems    
+    pixel paling populer karenya bisa merancang sama ngontrol ukuran secara akurat
+    kalo make PRESENTASE ukuran kotak relative/ menyesuaikan dari ukuran lain
+    kalo make EMS nilai dimensi kotak akan menyesuaikan berdasarkan ukuran teks yg ditampilkan pada konten elemen
+
+LIMITING DIMENSIONS: 
+    sebuah limitasi ukuran yang berfungsi unyuk mengatur ukuran konten
+        agar ditampilkan secara proporsional.
+        ~ min-width: limit lebar minimal  yang harus dimiliki elemen
+        ~ max-width: limit lebar maksimal yang harus dimiliki elemen
+
+
+OVERFLOWING CONTENT:     
+    - visible : Merupakan nilai default pada properti ini. Konten yang tidak tertampung (overflow) akan tetap ditampilkan seperti pada standarnya.
+    - hidden : Jika terjadi overflow, maka konten yang tidak tertampung akan disembunyikan.
+    - scroll : Memunculkan scroll bar pada pinggir elemen, sehingga konten yang tidak tertampung akan ditampilkan dengan scroll bar. Jika menggunakan nilai ini, scroll bar akan tetap muncul walaupun konten tidak terjadi overflow.
+    - auto : Sama seperti scroll, bedanya jika tidak terjadi overflow, maka nilai visible yang akan diterapkan.   
+
+BOX SIZING:     
+hasil elemen yang ditampilkan (termasuk padding dan border) akan memiliki dimensi yang sama persis seperti yang kita tentukan.
+
+FLEXIBLE BOX MODEL -> mode layout 
+- bisa ngatur ukuran scr otomatis dan bisa beradaptasu dgn ukuran
+containernya
+- make flexbox sebuah site bakal jadi mobile friendly
+    - Dapat mengubah ukuran dimensi elemen dengan menyesuaikan ukuran yang cocok bagi ruang kosong yang ada pada container-nya.
+    - Flexbox is directional agnostic. ini berbeda dengan konsep block model di mana elemen selalu ditampilkan secara vertikal dengan membuat baris baru. Ini berbeda pula dengan konsep inline model di mana elemen selalu ditampilkan secara horizontal. Dengan flexbox kita dapat melakukan kedua hal tersebut dengan mudah.
+    - Dibuat untuk menyusun layout yang mobile friendly.
+
+FLEX CONTAINER : elemen yang menampung beberapa item flex item
+ setiap flex merupakana child dari flex container
+
+FLEX GROW :  digunakan untuk memberitahu berapa banyak ukuran yang harus ditetapkan oleh flex-item
+Nilai dari properti ini bukan nilai dari dimensi asli pada flex item, melainkan nilai yang relatif terhadap ruang kosong pada flex container.
+
+FLEX DIRECTION : ngatur arah flex mau kemana
+    Ada empat nilai yang bisa digunakan untuk properti flex-direction, antara lain:
+        - row : merupakan nilai default, di mana deretan flex-item pada container ditampilkan secara horizontal.
+        - row-reverse : memiliki sifat yang sama seperti row, namun urutan flex item-nya ditukar.
+        - column : Deretan flex-item pada container ditampilkan secara vertikal.
+        - column-reverse : memiliki sifat yang sama seperti column, namun urutan flex item-nya ditukar.
+
+flex container bisa memiliki child berupa flex container lain.        
+
+FLEX BASIS :
+    buat nentuin ukuran flex item bisa make flex-grow /  flex basis
+ bedanya flex-grow dipake pas nentuin ukuran awal sebuah flex item

@@ -1,0 +1,32 @@
+Combinator
+- Adjacent Sibling Selector =
+  Gabungan 2 basic selector make tanda +(plus) diantara keduanya.
+  Tapi rule yang diterapkan elemen kedua, selama dituliskan langsung setelah elemen
+  pertama pd HTML
+  ex: img + p {
+  color: green;
+  }
+  saat di running, teks yang posisinya setelah image akan berwarna hijau
+
+- General Sibling Selector =
+  kayak ASS cuma rulesnya berlaku ke seluruh elemen kedua setelah elemen pertama. Dengan catatan, induknya sama, walaupun posisi dari elemen kedua tidak berada tepat setelahnya.menggunakan tanda ~ untuk menetapkan elemen
+  ex: img ~ p {
+      color : green;
+  }
+
+  hasil running : semua yang memiliki tag sama akan ter style seperti diatas, kecuali ketika tag tsb berada di dalam tag lain spt <div>
+
+- Child Selector =
+  gabungin 2 basic selector dengan tanda >
+  rule berlaku keseluruh elemen yang berada setelah tanda > 
+  ex : div > p {
+      background-color: yellow;
+  } 
+
+- Descendant Selector =
+  sama kayak child selector cuma hierarkinya(urutannya) lebih luas.
+  rule di terapin ke seluruh elemen yg jadi turunannya scr ga langsung
+  yg nerapin rule basic selector kedua
+  ex : div p {
+   background-color: yellow;
+  }

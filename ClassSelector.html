@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class selector</title>
+    <!-- Class Selector = menetapkan target elemen berdasarkan nilai dri atribut class
+    yang di terapin di elemennya -->
+    <style>
+        .red{
+            color: red;
+        }
+        .blue-bg{
+            background-color: blue;
+        }
+        .fancy{
+            font-weight: bold;
+            text-shadow: 4px 4px 3px #77f;
+        }
+        p.fancy{
+            text-shadow: 4px 4px 3px #00c8eb;
+        }
+    </style>
+</head>
+<body>
+    <!-- class bersifat shareable = bisa di terapin ke banyak elemn yang tipe elemennya berbeda beda -->
+    <p class="red">Paragraf teks berwarna merah</p>
+    <p class="blue-bg">Paragraf dengan backgroun warna biru</p>
+    <p class="fancy">paragraf dgn font styelnya fancy</p>
+    <!-- satu elemen bisa dimasukin banyak nilai class -->
+    <p class="blue-bg red">ini paragraf yang stylenya make 2class</p>
+    <!-- Kita juga bisa menargetkan elemen secara spesifik yang memiliki sebuah
+        class. Bagaimana jika kita ingin menerapkan gaya yang berbeda ketika menggunakan
+        kelas bergaya keren alias fancy pada sebuah paragraf? untuk melakukannya,
+        pada selector kita tuliskan nama elemen target diikuti dengan titik (.) kemudian nama kelasnya.  -->
+    <h1 class="fancy">Heading dengan teks bergaya fancy</h1>
+    <p class="fancy">Paragraf dengan teks bergaya fancy</p>
+</body>
+</html>

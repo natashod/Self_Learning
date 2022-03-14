@@ -1,0 +1,15 @@
+NUMERIC VALUE : menentukan warna dengan angka, keuntungannya dapat menentukan warna dengan tepat
+    format warnanya bisa selain RGB; ex= Hex HSL(Hue,Saturation,Light)
+    /* Warna hijau menggunakan format RGB */
+    color: rgb(78,231,23);
+ 
+    /* Warna hijau Menggunakan format HEX */
+    color: #4ee717;
+ 
+    /* Warna hijau menggunakan format HSL (hanya di CSS3)*/
+    color: hsl(104, 82%, 50%);
+
+PREDEFINED COLOR NAME: menentukan warna dengan menyebutkan nama warnanya 
+OPACITY: menspesifikan nilai transparan pd elemen 
+
+

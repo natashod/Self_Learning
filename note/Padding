@@ -1,0 +1,6 @@
+Padding : jarak antara konten dan border
+Margin : ruang/ jarak pada sebuah elemen
+    dipakai untuk menjaga biar elemen gak bertabrakan satu sama lain
+    -bersifat collapsed : dapat menumpuk kalo ada
+    2 margin yg saling bertumpukan
+Centering content : naro konten di tengah tengah     

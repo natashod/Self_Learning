@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child selector</title>
+    <!-- 2 basic selector yg digabung, penerapan rulesnya berlaku
+    untuk semua elemen setelah tanda > -->
+    <style>
+        /* Rule akan diterapkan pada elemen paragraf yang merupakan
+         child dari elemen div */
+        div > p{
+            background-color:thistle;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>selamat pagi. di dalam div</p>
+        <p>selamat siang. di dalam div</p>
+        <p>selamat sore. di dalam div</p>
+        <section>selamat malam. <i>di dalam div namun bukan sebagai anak elemen secara langsung</i></section>
+    </div>
+    <p>halo selamat pagi. diluar div</p>
+    <p>halo selamat siang. diluar div</p>
+</body>
+</html>

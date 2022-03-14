@@ -1,0 +1,25 @@
+.featured-image{
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-image{
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}

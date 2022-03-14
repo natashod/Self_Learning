@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex</title>
+    <style>
+        /* Flex Container */
+        .container {
+            display: flex;
+            /* flex direction */
+            flex-direction: column;
+  
+            /* Properti lainnya */
+            width: 800px;
+            height: 250px;
+            background-color: #11C5C6;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        .box {
+            flex-grow: 1;
+  
+            /* properti lainnya */
+            background-color: #FBDD1C;
+            margin: 5px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        /* flex grow */
+       .first {
+           flex-grow: 1;
+       }
+       .second {
+           flex-grow: 2;
+       }
+       .third {
+           flex-grow: 1;
+       }
+    </style>
+</head>
+<body>
+    <!-- Flex Container -->
+    <div class="container">
+        <div class="first box"></div>
+        <div class="second box"></div>
+        <div class="third box"></div>
+    </div>
+</body>
+</html>

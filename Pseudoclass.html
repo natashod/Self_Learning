@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudoclass</title>
+    <style>
+        /* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+        a:link{
+            color: darkolivegreen;
+        }
+        /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+        a:visited{
+            color: goldenrod;
+        }
+        /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+        a:hover{
+            color: indianred;
+        }
+        /* rule akan diterapkan pada sebuah tautan ketika ditekan */
+        a:active {
+        color:orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- menargetkan elemen din bagian
+        "yg ga terlihat", jadi ga bisa make selector biasa -->
+    <a href="google.com">Klik untuk ke google</a>
+</body>
+</html>
